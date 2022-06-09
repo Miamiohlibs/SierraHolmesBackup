@@ -34,20 +34,30 @@ b|r||-6789|Descript.||b|
 b|s||-06789|Series||b|
 b|h||-6789|Lib. Has||b|
 b|n||-6789|Note||b|
+#hide RDA fields. rw. 5-31-2022
+b|n|33.|||||
+#Display OCLC
+b|o||-6789|OCLC#||b|
 b|w||-6789|Related To||b|
 b|u||-6789|Alt Title||b|
-b|q||-6789|Link||b|
+#hide 776 link field. rw. 6-1-2022
+b|q|776|||||
 b|x||-6789|Continues||b|
 b|z||-6789|Cont'd By||b|
 b|j||-6789|||b|
-b|d||-06789|Subject||b|
+#hide subfield 2 from subject. rw. 5-31-2022
+b|d||-026789|Subject||b|
+#show genre headings. rw 6-2-2022
+b|d|655|-06789|Genre||b|
 b|b||-06789|Add Author||b|
 b|y|856|-6789|Url||b|
 b|y|[^89]..|-6789|||b|
 b|y|8[^5].|-6789|||b|
 b|y|85[^6]|-6789|||b|
-b|y|956|-6789|Url||b|
+#hide subfield 3 from 956. rw. 5-31-2022
+b|y|956|-u3z6789|Url||b|
 #b|y|[^0]..|-6789|||b|
+#the next 2 lines affect 910, 947, etc. rw. 6-1-2022
 b|y|9[^5].|-6789|||b|
 b|y|95[^6]|-6789|||b|
 b|y||-6789|Marc||b|
