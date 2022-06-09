@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT&subset=latin&v2);
+
+body {
+  background-color: #eee;
+  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-size: 0.875em; /* 16px x .875 = 14px */
+  line-height: 1.286em; /* 14px x 1.286 = 18px */
+  line-height: 1.333em; /* 12px x 1.333 = 16px */
+  text-rendering: optimizeLegibility; 
+}
+
+a:link,
+a:visited {
+  color: #174F82;
+}
+
+#page-wrapper {
+  margin: 5% auto 1% auto;
+  width: 750px;
+}
+
+#extra_links {
+  display: none;
+  text-align: right;
+}
+
+#extra_links ul {
+  list-style: none;
+  padding: 0px;
+}
+
+#login_area {
+  padding-top: 5px;
+}
+
+#header {
+  font-family: 'OFL Sorts Mill Goudy TT', serif;
+  font-size: 1.9em;
+  line-height: 1.9em;
+  text-align: center;
+  background-color: #990000;
+  margin-bottom: 5px;
+  padding-top: 3px;
+  /*
+  margin-left: -25px;
+  */
+}
+
+#header{
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  color: #fff;
+}
+
+#header a:link,
+#header a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+
+#header a:hover{
+  text-decoration: underline;
+}
+
+#content-box {
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  padding: 5px 15px 15px 15px;
+}
+
+@media all and (max-width: 400px) {
+  #page-wrapper {
+    margin: 2% auto 0% auto;
+    width: 100%;
+  }
+  #header {
+    font-size: 1.5em;
+    margin-left: 0;
+    text-align: center;
+  }
+
+}
+
+#without_auth {
+  overflow: auto;
+}
+
+.errormessage {
+  border: 2px solid #990000;
+  color: #990000;
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px 10px 0px 10px;
+}
+
+.errormessage.request {
+  padding: 10px;
+}
+
+.bibInfoData,
+.bibInfoLabel {
+  padding: 3px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.bibTOC {
+  margin: 10px;
+}
+.bibTOC td {
+  padding: 3px;
+  text-align: left;
+  vertical-align: top;
+}
+
+h2 {
+  text-align: center;
+}

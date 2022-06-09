@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--START srchhelp_r.html-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang=
+"en-US">
+<head>
+  <title>Miami University Libraries:Course Reserve Search</title>
+</head>
+
+<body>
+<div id="page-wrapper"> 
+ 
+<!--{toplogo}-->
+
+    <div id="login_area"> 
+
+          <h2>Course Reserve Search</h2>
+
+<form name="searchtool" target="_self" action="/search~S9/" method='GET'>
+      <label for="searchtype" style="display:none;">SearchType</label> <select name="searchtype" id="searchtype" onChange="initSort()">
+        <option value="r" selected="selected"> COURSE</option>
+        <option value="p"> PROF/TA</option>
+      </select>
+      &nbsp;
+      <label for="searcharg" style="display:none;">Search</label><input type="text" name="searcharg" id="searcharg" size="30" onchange='return searchtoolSubmitAction()'maxlength="75" value="" />
+      &nbsp;
+
+<span id="sort_cell">
+</span>
+
+<script type="text/JavaScript">
+<!-- Hide the JS
+initSort();
+// Unhide the JS -->
+</script>
+      <input type="hidden" name="SORT" value="D" /><input type="hidden" name="extended" value="0" />      <input type="submit" name="SUBMIT" value="Search" onclick='return searchtoolSubmitAction();' />
+<div>
+      <input type="hidden" name="searchlimits" value="" />
+      <input type="hidden" name="searchorigarg" value="" />
+</div>
+</form>
+
+<dl>
+<dd>
+Type the <b>Course Name</b> or
+<b>Abbreviation</b>. For direct access,
+include the course number. 
+<p>
+<i>for example:</i>
+</p>
+<ul>
+<li>
+Electronic music
+</li>
+<li>
+mus
+</li>
+<li>
+music 303
+</li>
+</ul>
+</dd>
+</dl>
+<p>
+<a href="/search/">Start Over</a> 
+</p>
+
+<!--{botlogo}-->
+
+</body>
+<!--END srchhelp_r.html-->
+
+</html>

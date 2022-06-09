@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!--START srchhelp_r.html-->
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang=
+"en-US">
+<head>
+  <title>Miami University Libraries:Course Reserve Search</title>
+</head>
+
+<body>
+<div id="page-wrapper"> 
+ 
+<!--{toplogo}-->
+
+    <div id="login_area"> 
+
+          <h2>Course Reserve Search</h2>
+
+<div  class="browseSearchtool" style="border:none;">
+<script type="text/JavaScript">
+<!-- Hide the JS
+var savedScope;
+var savedTag;
+var savedSearch;
+var sortButtonText = null;
+var savedExactSearch = null;
+var sortButtonEvent = null;
+var sortExactBrowseURL = null;
+var sortTypes = new Array();
+var sortLabels = new Array();
+sortTypes[0] = "r";
+sortLabels[0] = "Reverse Year";
+sortTypes[1] = "c";
+sortLabels[1] = "Year";
+sortTypes[2] = "t";
+sortLabels[2] = "Title";
+sortTypes[3] = "a";
+sortLabels[3] = "Author";
+sortTypes[4] = "n";
+sortLabels[4] = "Call Number";
+sortTypes[5] = "m";
+sortLabels[5] = "Material Type";
+sortLabels[6] = "System Sorted";
+sortTypes[6] = "-";
+var sortSelectedValue = "6";
+var nonSortTags = "XYZprWw"
+// Unhide the JS -->
+</script>
+<form name="searchtool" target="_self" action="/search~S9/" method='GET'>
+      <label for="searchtype" style="display:none;">SearchType</label> <select name="searchtype" id="searchtype" onChange="initSort()">
+        <option value="p" selected="selected"> PROF/TA</option>
+        <option value="r"> COURSE</option>
+      </select>
+      &nbsp;
+      <label for="searcharg" style="display:none;">Search</label><input type="text" name="searcharg" id="searcharg" size="30" onchange='return searchtoolSubmitAction()'maxlength="75" value="" />
+      &nbsp;
+
+<span id="sort_cell">
+</span>
+
+<script type="text/JavaScript">
+<!-- Hide the JS
+initSort();
+// Unhide the JS -->
+</script>
+      <input type="hidden" name="SORT" value="D" /><input type="hidden" name="extended" value="0" />      <input type="submit" name="SUBMIT" value="Search" onclick='return searchtoolSubmitAction();' />
+<div>
+      <input type="hidden" name="searchlimits" value="" />
+      <input type="hidden" name="searchorigarg" value="" />
+</div>
+</form>
+<div></div></div>
+
+</td>
+</tr>
+</div>
+<dl>
+<dd>
+Type the <b>Professor's Last Name</b>.
+<p>
+<i>for example:</i>
+</p>
+<ul>
+<li>
+Wilson
+</li>
+<li>
+Wilson, Linda
+</li>
+<li>
+Smith Adam
+</li>
+<li>
+Smith, Adam
+</li>
+</ul>
+</dd>
+</dl>
+<p>
+<a href="/search/">Start Over</a> 
+</p>
+
+<!--{botlogo}-->
+
+</body>
+<!--END srchhelp_p.html-->
+
+</html>
